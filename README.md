@@ -17,11 +17,11 @@ Python уже должен быть установлен
 
 ```haarcascades/faces/haarcascade_eye.xml```
 
-Поможет определить элемент глаза на видео.В папке `haarcascades` содержится много разных элементов. 
+Поможет определить элемент глаза на видео. В папке `haarcascades` содержится много разных элементов. 
 Если вы хотите добавить элемент для поиска, то нужно добавить строчки в файл 'config.py'
 
 ```
-"Name object": {
+"Face Front": {
         "path": "haarcascades/faces/haarcascade_frontalface_default.xml", # Путь к файлу
         "color": (255, 0, 0), # Цвет в формате RGB
         "draw": True # Рисовать или нет, найденный элемент
